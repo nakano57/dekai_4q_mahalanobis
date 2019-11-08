@@ -99,6 +99,6 @@ y_fill2 = np.zeros(x_fill.size)
 plt.scatter(u, stats.norm.pdf(x=u, loc=0, scale=1), c=r())
 plt.plot(x_norm, y_norm, c=r())
 plt.fill_between(x_fill, y_fill1, y_fill2, alpha=0.5, color=r())
-# plt.text(0.5, 0.4, 'UNCHI BURI', ha='center',
-# va='center', transform=ax.transAxes, fontsize=32, weight='bold', c='red')
+plt.text(0.5, 0.4, 'UNCHI BURI', ha='center',
+         va='center', transform=ax.transAxes, fontsize=32, weight='bold', c=r())
 plt.show()
